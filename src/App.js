@@ -30,7 +30,7 @@ function App() {
             .finally(()=> setLoading(false)) ;
   }, [] );
   return (
-    <div>
+    <div class = "product_cards">
       {loading && <div>Loading...</div> }
       {
 
